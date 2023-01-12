@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-// mongoose.connect('mongodb+srv://Sandip001:Sandip001@@cluster.mongodb.net/register', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const registrationSchema = new mongoose.Schema({
     name: {
